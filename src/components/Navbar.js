@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (  
@@ -12,19 +13,20 @@ const Navbar = () => {
       </div>
       <ul className='hidden sm:inline-flex gap-4 mx-auto text-zinc-100'>
          <li>
-            About us
+
+           <Link to={""}>About us</Link>
         </li>
         <li>
-            Capabilities
+           <Link to={""}>Capabilities</Link>
         </li>
         <li>
-            Our clients
+          <Link to={""}> Our clients</Link>
         </li>
         <li>
-            Join our team
+           <Link to={""}>Join our team</Link>
         </li>
         <li>
-            Contact
+           <Link to={""}>Contact</Link>
         </li>
       </ul>
 
