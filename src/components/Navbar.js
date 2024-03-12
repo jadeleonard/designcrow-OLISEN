@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <img src='https://oleson.io/wp-content/uploads/2021/03/logo.png' width={200} height={40} alt='logo' />
       </div>
-      <ul className='hidden sm:inline-flex gap-4 mx-auto text-zinc-100'>
+      <ul className='hidden sm:inline-flex gap-4 mx-auto text-zinc-100 text-sm capitalize'>
          <li>
 
            <Link to={""}>About us</Link>
